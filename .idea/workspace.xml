@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c939ae1b-0217-4956-af58-da2d4a02c2ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LogicaDeProgramação/TreinandoString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LogicaDeProgramação/EntradaSaidaDeDados.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,6 +33,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EntradaSaidaDeDados.executor": "Run",
     "Application.HelloWorld.executor": "Run",
     "Application.TreinandoString.executor": "Run",
     "Application.Variaveis.executor": "Run",
@@ -46,7 +46,20 @@
     "onboarding.tips.debug.path": "C:/Users/victo/IdeaProjects/LogicasJava/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TreinandoString">
+  <component name="RunManager" selected="Application.EntradaSaidaDeDados">
+    <configuration name="EntradaSaidaDeDados" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogicaDeProgramação.EntradaSaidaDeDados" />
+      <module name="LogicasJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LogicaDeProgramação.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LogicaDeProgramação.HelloWorld" />
       <module name="LogicasJava" />
@@ -88,6 +101,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EntradaSaidaDeDados" />
         <item itemvalue="Application.TreinandoString" />
         <item itemvalue="Application.Variaveis" />
         <item itemvalue="Application.HelloWorld" />
