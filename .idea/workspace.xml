@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c939ae1b-0217-4956-af58-da2d4a02c2ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LogicaDeProgramação/CastingConversaoDeTipo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LogicaDeProgramação/EstruturaCondicional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LogicaDeProgramação/SwitchCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LogicaDeProgramação/EstruturaRepeticao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +27,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="38zn4apnZG4aytFvsGepntGX0TW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,7 +39,9 @@
     "Application.CastingConversaoDeTipo.executor": "Run",
     "Application.EntradaSaidaDeDados.executor": "Run",
     "Application.EstruturaCondicional.executor": "Run",
+    "Application.EstruturaRepeticao.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.SwitchCase.executor": "Run",
     "Application.TreinandoString.executor": "Run",
     "Application.Variaveis.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -51,7 +54,7 @@
     "onboarding.tips.debug.path": "C:/Users/victo/IdeaProjects/LogicasJava/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.SwitchCase">
+  <component name="RunManager" selected="Application.EstruturaRepeticao">
     <configuration name="CastingConversaoDeTipo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LogicaDeProgramação.CastingConversaoDeTipo" />
       <module name="LogicasJava" />
@@ -91,6 +94,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EstruturaRepeticao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogicaDeProgramação.EstruturaRepeticao" />
+      <module name="LogicasJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LogicaDeProgramação.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LogicaDeProgramação.SwitchCase" />
       <module name="LogicasJava" />
@@ -104,26 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreinandoString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LogicaDeProgramação.TreinandoString" />
-      <module name="LogicasJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LogicaDeProgramação.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EstruturaRepeticao" />
         <item itemvalue="Application.SwitchCase" />
         <item itemvalue="Application.EstruturaCondicional" />
         <item itemvalue="Application.CastingConversaoDeTipo" />
         <item itemvalue="Application.EntradaSaidaDeDados" />
-        <item itemvalue="Application.TreinandoString" />
       </list>
     </recent_temporary>
   </component>
