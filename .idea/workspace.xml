@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c939ae1b-0217-4956-af58-da2d4a02c2ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaPooParaRecaptular/Enum/PeriodoEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaPooParaRecaptular/TestEnum/app.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaPooParaRecaptular/Enum/DayOfTheWeek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaPooParaRecaptular/Enum/Salgadinhos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MetodoToString/Dominio/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MetodoToString/Test/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaPooParaRecaptular/TestEnum/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaPooParaRecaptular/TestEnum/app.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.App.executor": "Run",
     "Application.CastingConversaoDeTipo.executor": "Run",
     "Application.EntradaSaidaDeDados.executor": "Run",
     "Application.EstruturaCondicional.executor": "Run",
@@ -57,13 +61,13 @@
     "onboarding.tips.debug.path": "C:/Users/victo/IdeaProjects/LogicasJava/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.app">
-    <configuration name="CastingConversaoDeTipo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LogicaDeProgramação.CastingConversaoDeTipo" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MetodoToString.Test.App" />
       <module name="LogicasJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LogicaDeProgramação.*" />
+          <option name="PATTERN" value="MetodoToString.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.app" />
         <item itemvalue="Application.EstruturaRepeticao" />
         <item itemvalue="Application.SwitchCase" />
         <item itemvalue="Application.EstruturaCondicional" />
-        <item itemvalue="Application.CastingConversaoDeTipo" />
       </list>
     </recent_temporary>
   </component>
