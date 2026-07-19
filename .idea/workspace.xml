@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c939ae1b-0217-4956-af58-da2d4a02c2ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/JavaPooParaRecaptular/Enum/DayOfTheWeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaPooParaRecaptular/Enum/Salgadinhos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MetodoToString/Dominio/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MetodoToString/Test/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfacesJava/Dominio/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfacesJava/Dominio/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfacesJava/Dominio/Promocao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfacesJava/Test/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaPooParaRecaptular/TestEnum/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaPooParaRecaptular/TestEnum/app.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -47,6 +47,7 @@
     "Application.EstruturaCondicional.executor": "Run",
     "Application.EstruturaRepeticao.executor": "Debug",
     "Application.HelloWorld.executor": "Run",
+    "Application.InterfacesJava.Test.App.executor": "Run",
     "Application.SwitchCase.executor": "Run",
     "Application.TreinandoString.executor": "Run",
     "Application.Variaveis.executor": "Run",
@@ -61,7 +62,7 @@
     "onboarding.tips.debug.path": "C:/Users/victo/IdeaProjects/LogicasJava/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.InterfacesJava.Test.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MetodoToString.Test.App" />
       <module name="LogicasJava" />
@@ -75,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EstruturaCondicional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LogicaDeProgramação.EstruturaCondicional" />
+    <configuration name="EstruturaRepeticao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LogicaDeProgramação.EstruturaRepeticao" />
       <module name="LogicasJava" />
       <extension name="coverage">
         <pattern>
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EstruturaRepeticao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LogicaDeProgramação.EstruturaRepeticao" />
+    <configuration name="InterfacesJava.Test.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesJava.Test.App" />
       <module name="LogicasJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LogicaDeProgramação.*" />
+          <option name="PATTERN" value="InterfacesJava.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterfacesJava.Test.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.app" />
         <item itemvalue="Application.EstruturaRepeticao" />
         <item itemvalue="Application.SwitchCase" />
-        <item itemvalue="Application.EstruturaCondicional" />
       </list>
     </recent_temporary>
   </component>
