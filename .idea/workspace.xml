@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c939ae1b-0217-4956-af58-da2d4a02c2ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InterfacesJava/Dominio/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesJava/Dominio/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesJava/Dominio/Promocao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/InterfacesJava/Test/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfacesJava/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfacesJava/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfacesJava/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/InterfacesJava/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfacesJava/Dominio/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfacesJava/Dominio/Gerente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfacesJava/Dominio/Promocao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/InterfacesJava/Test/App.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,6 +52,7 @@
     "Application.EstruturaRepeticao.executor": "Debug",
     "Application.HelloWorld.executor": "Run",
     "Application.InterfacesJava.Test.App.executor": "Run",
+    "Application.Main.executor": "Run",
     "Application.SwitchCase.executor": "Run",
     "Application.TreinandoString.executor": "Run",
     "Application.Variaveis.executor": "Run",
@@ -62,7 +67,7 @@
     "onboarding.tips.debug.path": "C:/Users/victo/IdeaProjects/LogicasJava/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.InterfacesJava.Test.App">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MetodoToString.Test.App" />
       <module name="LogicasJava" />
@@ -102,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LogicaDeProgramação.SwitchCase" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InterfacesJava.Main" />
       <module name="LogicasJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LogicaDeProgramação.*" />
+          <option name="PATTERN" value="InterfacesJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.InterfacesJava.Test.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.app" />
         <item itemvalue="Application.EstruturaRepeticao" />
-        <item itemvalue="Application.SwitchCase" />
       </list>
     </recent_temporary>
   </component>
