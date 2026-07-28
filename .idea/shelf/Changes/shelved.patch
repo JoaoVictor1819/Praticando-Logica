@@ -1,0 +1,141 @@
+Index: src/ListaJava/main/app.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package ListaJava.main;\r\n\r\nimport ListaJava.dominio.Pessoa;\r\n\r\nimport java.util.ArrayList;\r\n\r\npublic class app {\r\n    static void main(String[] args) {\r\n\r\n        Pessoa pessoa = new Pessoa(\"Victor\", 19, \"Engenhero de Software\");\r\n        Pessoa pessoa1 = new Pessoa(\"Luana\", 21, \"Diretora de Escola\");\r\n\r\n\r\n        ArrayList<Pessoa> pessoas = new ArrayList<>();\r\n        pessoas.add(pessoa);\r\n        pessoas.add(pessoa1);\r\n\r\n        for (int i = 0; i < 2; i++) {\r\n            System.out.println(pessoas.get(i));\r\n        }\r\n\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ListaJava/main/app.java b/src/ListaJava/main/app.java
+--- a/src/ListaJava/main/app.java	(revision a72f0a1d062060d0a45b6d10005df6e3a35bcc1e)
++++ b/src/ListaJava/main/app.java	(revision 8cfd329663947bb346ad9319d7fe890c93c33da3)
+@@ -9,13 +9,15 @@
+ 
+         Pessoa pessoa = new Pessoa("Victor", 19, "Engenhero de Software");
+         Pessoa pessoa1 = new Pessoa("Luana", 21, "Diretora de Escola");
++        Pessoa pessoa2 = new Pessoa("Carlos", 31, "Arquiteto");
+ 
+ 
+         ArrayList<Pessoa> pessoas = new ArrayList<>();
+         pessoas.add(pessoa);
+         pessoas.add(pessoa1);
++        pessoas.add(pessoa2);
+ 
+-        for (int i = 0; i < 2; i++) {
++        for (int i = 0; i < 3; i++) {
+             System.out.println(pessoas.get(i));
+         }
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c939ae1b-0217-4956-af58-da2d4a02c2ef\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/ArrayListJava/app.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/ListaJava/dominio/Pessoa.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/ListaJava/main/app.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/ExecoesJava/app.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/ExecoesJava/app.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Enum\" />\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 2\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"38zn4apnZG4aytFvsGepntGX0TW\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Application.App.executor\": \"Run\",\r\n    \"Application.ArrayListJava.app.executor\": \"Run\",\r\n    \"Application.CastingConversaoDeTipo.executor\": \"Run\",\r\n    \"Application.EntradaSaidaDeDados.executor\": \"Run\",\r\n    \"Application.EstruturaCondicional.executor\": \"Run\",\r\n    \"Application.EstruturaRepeticao.executor\": \"Debug\",\r\n    \"Application.HelloWorld.executor\": \"Run\",\r\n    \"Application.InterfacesJava.Test.App.executor\": \"Run\",\r\n    \"Application.ListaJava.main.app.executor\": \"Run\",\r\n    \"Application.Main.executor\": \"Run\",\r\n    \"Application.PolimorfismoJava.Test.Main.executor\": \"Run\",\r\n    \"Application.PolimorfismoJava.test.Main.executor\": \"Run\",\r\n    \"Application.SwitchCase.executor\": \"Run\",\r\n    \"Application.TreinandoString.executor\": \"Run\",\r\n    \"Application.Variaveis.executor\": \"Run\",\r\n    \"Application.app.executor\": \"Run\",\r\n    \"Application.main.executor\": \"Run\",\r\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252\": \"true\",\r\n    \"RunOnceActivity.git.unshallow\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"onboarding.tips.debug.path\": \"C:/Users/victo/IdeaProjects/LogicasJava/src/Main.java\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunManager\" selected=\"Application.ListaJava.main.app\">\r\n    <configuration name=\"App\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"MetodoToString.Test.App\" />\r\n      <module name=\"LogicasJava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"MetodoToString.Test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ArrayListJava.app\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ArrayListJava.app\" />\r\n      <module name=\"LogicasJava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ArrayListJava.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ListaJava.main.app\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ListaJava.main.app\" />\r\n      <module name=\"LogicasJava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ListaJava.main.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"app\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ExecoesJava.app\" />\r\n      <module name=\"LogicasJava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ExecoesJava.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"ExecoesJava.main\" />\r\n      <module name=\"LogicasJava\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"ExecoesJava.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.ListaJava.main.app\" />\r\n        <item itemvalue=\"Application.ArrayListJava.app\" />\r\n        <item itemvalue=\"Application.app\" />\r\n        <item itemvalue=\"Application.main\" />\r\n        <item itemvalue=\"Application.App\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.30387.90\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c939ae1b-0217-4956-af58-da2d4a02c2ef\" name=\"Changes\" comment=\"\" />\r\n      <created>1769811091656</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1769811091656</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <breakpoint enabled=\"true\" type=\"java-exception\">\r\n          <properties class=\"java.util.InputMismatchException\" package=\"java.util\" />\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a72f0a1d062060d0a45b6d10005df6e3a35bcc1e)
++++ b/.idea/workspace.xml	(revision 8cfd329663947bb346ad9319d7fe890c93c33da3)
+@@ -5,11 +5,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="c939ae1b-0217-4956-af58-da2d4a02c2ef" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/ArrayListJava/app.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/ListaJava/dominio/Pessoa.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/ListaJava/main/app.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/ExecoesJava/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExecoesJava/app.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/ListaJava/main/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaJava/main/app.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -39,35 +35,35 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.App.executor": "Run",
+-    "Application.ArrayListJava.app.executor": "Run",
+-    "Application.CastingConversaoDeTipo.executor": "Run",
+-    "Application.EntradaSaidaDeDados.executor": "Run",
+-    "Application.EstruturaCondicional.executor": "Run",
+-    "Application.EstruturaRepeticao.executor": "Debug",
+-    "Application.HelloWorld.executor": "Run",
+-    "Application.InterfacesJava.Test.App.executor": "Run",
+-    "Application.ListaJava.main.app.executor": "Run",
+-    "Application.Main.executor": "Run",
+-    "Application.PolimorfismoJava.Test.Main.executor": "Run",
+-    "Application.PolimorfismoJava.test.Main.executor": "Run",
+-    "Application.SwitchCase.executor": "Run",
+-    "Application.TreinandoString.executor": "Run",
+-    "Application.Variaveis.executor": "Run",
+-    "Application.app.executor": "Run",
+-    "Application.main.executor": "Run",
+-    "ModuleVcsDetector.initialDetectionPerformed": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+-    "RunOnceActivity.git.unshallow": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "master",
+-    "kotlin-language-version-configured": "true",
+-    "onboarding.tips.debug.path": "C:/Users/victo/IdeaProjects/LogicasJava/src/Main.java"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.App.executor&quot;: &quot;Run&quot;,
++    &quot;Application.ArrayListJava.app.executor&quot;: &quot;Run&quot;,
++    &quot;Application.CastingConversaoDeTipo.executor&quot;: &quot;Run&quot;,
++    &quot;Application.EntradaSaidaDeDados.executor&quot;: &quot;Run&quot;,
++    &quot;Application.EstruturaCondicional.executor&quot;: &quot;Run&quot;,
++    &quot;Application.EstruturaRepeticao.executor&quot;: &quot;Debug&quot;,
++    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
++    &quot;Application.InterfacesJava.Test.App.executor&quot;: &quot;Run&quot;,
++    &quot;Application.ListaJava.main.app.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
++    &quot;Application.PolimorfismoJava.Test.Main.executor&quot;: &quot;Run&quot;,
++    &quot;Application.PolimorfismoJava.test.Main.executor&quot;: &quot;Run&quot;,
++    &quot;Application.SwitchCase.executor&quot;: &quot;Run&quot;,
++    &quot;Application.TreinandoString.executor&quot;: &quot;Run&quot;,
++    &quot;Application.Variaveis.executor&quot;: &quot;Run&quot;,
++    &quot;Application.app.executor&quot;: &quot;Run&quot;,
++    &quot;Application.main.executor&quot;: &quot;Run&quot;,
++    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/victo/IdeaProjects/LogicasJava/src/Main.java&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RunManager" selected="Application.ListaJava.main.app">
+     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="MetodoToString.Test.App" />
+@@ -159,6 +155,15 @@
+       <option name="presentableId" value="Default" />
+       <updated>1769811091656</updated>
+     </task>
++    <task id="LOCAL-00001" summary="Praticando git denovo para melhorar">
++      <option name="closed" value="true" />
++      <created>1785262474105</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1785262474105</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -171,6 +176,10 @@
+         </entry>
+       </map>
+     </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Praticando git denovo para melhorar" />
++    <option name="LAST_COMMIT_MESSAGE" value="Praticando git denovo para melhorar" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>

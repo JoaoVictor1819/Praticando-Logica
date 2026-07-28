@@ -1,11 +1,14 @@
 package ExecoesJava;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class app {
     static void main(String[] args) {
         divisao();
+        info();
     }
 
 
@@ -28,7 +31,23 @@ public class app {
                 System.out.println("Erro ocorrido: "+ e.getMessage());
             }
         }
+    }
 
+    private static void info(){
+        String[] nome = new String[3];
+
+         nome[0] = "Joao";
+         nome[1] = "Carlos";
+         nome[2] = "Julio";
+
+        for (int i = 0; i < 3; i++) {
+            try {
+                System.out.println(nome[i]);
+            }catch (ArrayIndexOutOfBoundsException a){
+                a.printStackTrace();
+            }
+        }
 
     }
+
 }

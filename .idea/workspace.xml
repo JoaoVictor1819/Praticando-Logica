@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c939ae1b-0217-4956-af58-da2d4a02c2ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExecoesJava/app.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ExecoesJava/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PolimorfismoJava/dominio/Computador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PolimorfismoJava/dominio/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PolimorfismoJava/dominio/Taxavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PolimorfismoJava/dominio/Tomate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PolimorfismoJava/servico/CalculadoraImposto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PolimorfismoJava/test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MetodoToString/Test/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MetodoToString/Test/App.java" afterDir="false" />
-    </list>
+    <list default="true" id="c939ae1b-0217-4956-af58-da2d4a02c2ef" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,12 +36,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ArrayListJava.app.executor&quot;: &quot;Run&quot;,
     &quot;Application.CastingConversaoDeTipo.executor&quot;: &quot;Run&quot;,
     &quot;Application.EntradaSaidaDeDados.executor&quot;: &quot;Run&quot;,
     &quot;Application.EstruturaCondicional.executor&quot;: &quot;Run&quot;,
     &quot;Application.EstruturaRepeticao.executor&quot;: &quot;Debug&quot;,
     &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
     &quot;Application.InterfacesJava.Test.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ListaJava.main.app.executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.PolimorfismoJava.Test.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.PolimorfismoJava.test.Main.executor&quot;: &quot;Run&quot;,
@@ -71,7 +62,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/victo/IdeaProjects/LogicasJava/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.main">
+  <component name="RunManager" selected="Application.ListaJava.main.app">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MetodoToString.Test.App" />
       <module name="LogicasJava" />
@@ -85,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolimorfismoJava.Test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PolimorfismoJava.Test.Main" />
+    <configuration name="ArrayListJava.app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListJava.app" />
       <module name="LogicasJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PolimorfismoJava.Test.*" />
+          <option name="PATTERN" value="ArrayListJava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PolimorfismoJava.test.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PolimorfismoJava.test.Main" />
+    <configuration name="ListaJava.main.app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListaJava.main.app" />
       <module name="LogicasJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="PolimorfismoJava.test.*" />
+          <option name="PATTERN" value="ListaJava.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
+        <item itemvalue="Application.ListaJava.main.app" />
+        <item itemvalue="Application.ArrayListJava.app" />
         <item itemvalue="Application.app" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.PolimorfismoJava.test.Main" />
-        <item itemvalue="Application.PolimorfismoJava.Test.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +153,31 @@
       <option name="presentableId" value="Default" />
       <updated>1769811091656</updated>
     </task>
+    <task id="LOCAL-00001" summary="Praticando git denovo para melhorar">
+      <option name="closed" value="true" />
+      <created>1785262474105</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1785262474105</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Praticando git denovo para melhorar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Praticando git denovo para melhorar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
