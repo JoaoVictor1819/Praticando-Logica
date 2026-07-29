@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c939ae1b-0217-4956-af58-da2d4a02c2ef" name="Changes" comment="" />
+    <list default="true" id="c939ae1b-0217-4956-af58-da2d4a02c2ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/ListaJava/dominio/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaJava/dominio/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaJava/main/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaJava/main/app.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,35 +36,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListJava.app.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CastingConversaoDeTipo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EntradaSaidaDeDados.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EstruturaCondicional.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EstruturaRepeticao.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HelloWorld.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterfacesJava.Test.App.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListaJava.main.app.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PolimorfismoJava.Test.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PolimorfismoJava.test.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwitchCase.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TreinandoString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Variaveis.executor&quot;: &quot;Run&quot;,
-    &quot;Application.app.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/victo/IdeaProjects/LogicasJava/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.ArrayListJava.app.executor": "Run",
+    "Application.CastingConversaoDeTipo.executor": "Run",
+    "Application.EntradaSaidaDeDados.executor": "Run",
+    "Application.EstruturaCondicional.executor": "Run",
+    "Application.EstruturaRepeticao.executor": "Debug",
+    "Application.HelloWorld.executor": "Run",
+    "Application.InterfacesJava.Test.App.executor": "Run",
+    "Application.ListaJava.main.app.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.PolimorfismoJava.Test.Main.executor": "Run",
+    "Application.PolimorfismoJava.test.Main.executor": "Run",
+    "Application.SwitchCase.executor": "Run",
+    "Application.TreinandoString.executor": "Run",
+    "Application.Variaveis.executor": "Run",
+    "Application.app.executor": "Run",
+    "Application.main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "nome-da-minha-branch",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/victo/IdeaProjects/LogicasJava/src/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.ListaJava.main.app">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MetodoToString.Test.App" />
