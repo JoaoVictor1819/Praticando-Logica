@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c939ae1b-0217-4956-af58-da2d4a02c2ef" name="Changes" comment="mais uma linha">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaJava/dominio/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaJava/dominio/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListaJava/main/app.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListaJava/main/app.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "JoaoVictor1819"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;JoaoVictor1819&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:JoaoVictor1819/Praticando-Logica.git",
-    "accountId": "bae12de0-8091-4ec8-8470-2d3e9819c5f8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:JoaoVictor1819/Praticando-Logica.git&quot;,
+    &quot;accountId&quot;: &quot;bae12de0-8091-4ec8-8470-2d3e9819c5f8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -71,7 +72,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "nome-da-minha-branch",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/victo/IdeaProjects/LogicasJava/src/Main.java"
   }
