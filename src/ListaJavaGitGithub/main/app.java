@@ -13,6 +13,7 @@ public class app {
         Pessoa pessoa3 = new Pessoa("Jese", 71, "Medico");
         Pessoa pessoa4 = new Pessoa("Adriana", 53, "Advogada");
         Pessoa pessoa5 = new Pessoa("Lucas", 23, "Estagiario de direito");
+        Pessoa pessoa6 = new Pessoa("Lucia", 45, "Dentista");
 
 
         ArrayList<Pessoa> pessoas = new ArrayList<>();
@@ -22,8 +23,9 @@ public class app {
         pessoas.add(pessoa3);
         pessoas.add(pessoa4);
         pessoas.add(pessoa5);
+        pessoas.add(pessoa6);
 
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 7; i++) {
             System.out.println(pessoas.get(i));
         }
 
