@@ -7,8 +7,8 @@ import java.util.ArrayList;
 public class app {
     static void main(String[] args) {
 
-        Pessoa pessoa = new Pessoa("Victor", 19, "Estagiario de engenharia de software");
-        Pessoa pessoa1 = new Pessoa("Luana", 21, "Diretora de Escola");
+        Pessoa pessoa = new Pessoa("Victor", 19, "Estagiario de engenharia de software" );
+        Pessoa pessoa1 = new Pessoa("Luana", 21, "Diretora de Escola" );
         Pessoa pessoa2 = new Pessoa("Carlos", 31, "Arquiteto");
         Pessoa pessoa3 = new Pessoa("Jese", 71, "Medico");
         Pessoa pessoa4 = new Pessoa("Adriana", 53, "Advogada");
