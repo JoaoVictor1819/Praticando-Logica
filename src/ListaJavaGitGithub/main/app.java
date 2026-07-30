@@ -1,6 +1,6 @@
-package ListaJava.main;
+package ListaJavaGitGithub.main;
 
-import ListaJava.dominio.Pessoa;
+import ListaJavaGitGithub.dominio.Pessoa;
 
 import java.util.ArrayList;
 
